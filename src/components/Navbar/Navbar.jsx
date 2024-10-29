@@ -74,7 +74,7 @@ function Navbar({ head, links }) {
       >
         {links.map((element, index) => {
           return (
-            <li key={index} className="m-3.5 relative group">
+            <li key={index} className="m-3.5 relative group"   onClick={handleClick}>
               <Link
                 className=" text-xl p-2 capitalize max-sm:text-lg   "
                 to={`/${element.to}`}
