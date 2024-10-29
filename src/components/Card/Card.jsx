@@ -9,7 +9,6 @@ const Card = ({
   author,
   txt,
   categories,
-  sections,
   className,
   row,
   height,

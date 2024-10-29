@@ -39,15 +39,15 @@ export default {
         27: "110px",
         26: "92px",
         50: "50px",
-        150: "150px"
+        150: "150px",
       },
       screens: {
         756: "765px",
         iPad: "834px",
         1200: "1200px",
         1440: "1440px",
-        1087: "1087px"
-        
+        1087: "1087px",
+        600: "600px",
       },
       transitionProperty: {
         height: "height",

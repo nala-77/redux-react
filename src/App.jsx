@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <Navbar head="nahla" links={navLinks}/>
-      <ScrollToTop />
       <Outlet />
       <Footer year="2023" links={footerLinks}/>
+      <ScrollToTop />
     </>
   );
 }
