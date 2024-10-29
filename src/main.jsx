@@ -30,7 +30,10 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+],
+{
+  basename: "/redux-react",
+});
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
