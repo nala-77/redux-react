@@ -1,13 +1,14 @@
 {
+  "homepage": "https://nala-77.github.io/redux-react ",
   "name": "react---redux",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview",
     "tailwind": "tailwindcss -i ./src/index.css -o ./src/App.css --watch"
